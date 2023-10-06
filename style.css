@@ -1,0 +1,233 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+
+
+*{
+    scroll-behavior: smooth;
+}
+/********************************************* common classes ********************************************/
+body{
+    font-family:'Poppins',sans-serif;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    line-height:1.5 ;
+    font-weight: 600;
+}
+h3{
+    font-family:'Poppins',sans-serif;
+   font-size: 1.5rem;
+   font-weight: 500;
+ }
+ .container{
+    text-align: center;
+}
+p,a{
+    color:#8f8f8f;
+    font-weight: 450;
+    text-decoration: none;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+/*********************************************** Navigation Bar **************************************/
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+font-family: "Ubuntu";
+font-size:2.5rem ;
+font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Poppins',sans-serif;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+/***************************************************** hero section**********************************************/
+.title-image{
+   width:100%;
+   height:100%;
+   right:40%;
+   animation:bounceTop-1 3s ease infinite;
+   
+}
+@keyframes bounceTop-1{
+    0%,100%{
+        transform:translateY(-30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
+#title{
+   background-color: #d44234;
+}
+
+
+/******************************************** features-section ************************************************/
+
+#features{
+    padding:0% 15% 12% 15%;
+    background-color:#fff;
+    position:relative;
+    z-index: 1;
+}
+/* .feature-box{
+    text-align: center;
+    padding:5%;
+} */
+
+.feature-image{
+    width:100%;
+    height:100%;
+    right:40%;
+   
+}
+
+
+/************************************************* app screenshots-section****************************************/
+
+.testimonial{
+    background-color:#fff;
+}
+.swiper-wrapper{
+    width: 100%;
+}
+.swiper-wrapper{
+    align-items: center;
+
+}
+.swiper-slide{
+   height: 500px;
+   width:300px;
+    border-radius: 7px;
+    padding-left:0px;
+    padding-right:0px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    filter:blur(1.7px);
+
+}
+.swiper-slide-img{
+    height: 550px;
+    width: 300px;
+    padding-right:0px;
+    padding-left:0px;
+  
+}
+.swiper-slide-active{
+    transform:scale(1.2);transition:0.4s;
+   filter:blur(0px);
+   background: #fad4d4;
+   
+}
+
+/*********************************** testimonial ***********************************************************/
+#testimonial{
+    background-color:#fff;
+}
+
+.testimonial-image{
+    width:100%;
+    height:100%;
+    right:40%;
+ }
+ 
+ .cont-container{
+    padding:3% 15% 7%;
+ }
+ .big-div{
+   text-align: left;
+   position: relative;
+   
+ }
+ .carousel-item{
+    padding:0% 15%;
+    background-color: #ffffff;
+   
+ }
+
+ .user-image{
+    width:4rem;
+    height: 4rem;
+ }
+.fas{
+    color:rgba(0, 162, 255, 0.979)
+}
+.icon{
+    font-size: 4rem;
+    color:tomato;
+    position: absolute;
+    top:0px; right:15px;
+    padding-right:15%;
+   
+}
+
+
+
+/**************************************** call-to-action*************************************************/
+
+#cta{
+    background-color: #d44234;
+    color:#fff;
+    color:#fff;
+    padding:4% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.50rem;
+    font-weight: 900;
+    line-height: 1.5;
+   
+}
+
+/***************************************** footer-section **************************************************/
+#footer{
+    padding:2% 15% 2% 25%;
+    text-align: center;
+   background-color: black;
+   color: white;
+}
+.footer-column{
+    padding:3% 2%;
+    text-align: left;
+  
+}
+.social-icon{
+    margin:20px 10px;
+   color: tomato;
+   font-size: 1.25rem;
+}
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+      
+    }
+}
+
